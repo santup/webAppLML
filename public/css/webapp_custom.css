@@ -1,0 +1,12 @@
+.navbar-right.pull-right, .sidebar-collapse-btn{ 
+    position: relative;
+    margin: 15px 0px 15px 10px;
+}
+
+.app-search a{
+    top:7px;
+}
+
+.dashboard-card{
+    height:20px;
+}

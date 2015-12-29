@@ -1,0 +1,27 @@
+<html>
+    {{>header}} 
+    <body>
+        <div id="wrapper">
+            <!-- Sidebar navigation -->
+            {{>sidebar_navigaion}}                         
+            <!-- Topbar content -->
+            {{>topbar_menu}}
+            <div class="content-page">
+                <!-- Start content -->
+                <div class="content">
+                    <div class="container">
+                        <!-- Page-Title -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4 class="page-title">{{title}}</h4>
+                                <p class="text-muted page-title-alt">{{message}}</p>
+                            </div>
+                        </div>
+                        {{{ body }}}
+                    </div>
+                </div>
+            </div>    
+        {{>footer}}            
+        </div>      
+    </body>
+</html>
