@@ -1,4 +1,4 @@
-#Express js, #Handlebars, #MySql
+#Express js, Handlebars, MySql
 
 ##Quick run:
 #> cd appFolder
