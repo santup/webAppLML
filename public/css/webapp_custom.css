@@ -10,3 +10,9 @@
 .dashboard-card{
     height:20px;
 }
+
+/*.container {
+    width: auto;
+    max-height: 550px;
+    overflow-y: auto;
+}*/

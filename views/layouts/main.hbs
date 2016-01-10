@@ -1,6 +1,6 @@
 <html>
     {{>header}} 
-    <body>
+    <body class="fixed-left widescreen">
         <div id="wrapper">
             <!-- Sidebar navigation -->
             {{>sidebar_navigaion}}                         
@@ -9,19 +9,22 @@
             <div class="content-page">
                 <!-- Start content -->
                 <div class="content">
-                    <div class="container">
+                    <div class="container"  style="height:650px;overflow:auto">
                         <!-- Page-Title -->
                         <div class="row">
                             <div class="col-sm-12">
-                                <h4 class="page-title">{{title}}</h4>
+                                <!-- <h4 class="page-title">{{title}}</h4> -->
                                 <p class="text-muted page-title-alt">{{message}}</p>
                             </div>
                         </div>
                         {{{ body }}}
                     </div>
-                </div>
+                </div>                
+                   <!--  <footer class="footer">
+                        2016 © Logistics Tracker.
+                   </footer> -->
             </div>    
-        {{>footer}}            
+            {{>footer}}            
         </div>      
     </body>
 </html>
